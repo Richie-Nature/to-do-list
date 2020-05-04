@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+<div class="container mt-5 w-75">
+    <h3><u>To do List</u></h3>
+    <form action="" id="taskForm">
+        <div class="form-group">
+            <label for="task">Task</label>
+            <input id="task" type="text" class="form-control" placeholder="Enter task">
+        </div>
+        <button class="btn btn-primary" type="submit">Add Task</button>
+    </form>
+
+    <ul id="tasks" class="list-group mt-3"></ul>
+    <button id="clear" class="btn btn-danger mt-3">Clear All</button>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
